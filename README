@@ -1,0 +1,23 @@
+Create client-server applications using RPC (Remote Procedure Call) protocol.
+
+These should be the simple console applications:
+
+1) client part can sends the following commands: "hello" and "print [x]" (where "[x]" is parameter with some text message).
+
+2) server part can receive the commands from client and process them the following way:
+
+- when the "hello" command is received, it should print the "hello" string in console.
+
+- when the "print [x]" command is received, it should print the "[x]" string in console.
+
+
+
+Requirements:
+
+- language: C++.
+
+- the programs should be able to run on Windows system.
+
+- the "Remote Procedure Call" protocol must be used.
+
+- commentaries in code.

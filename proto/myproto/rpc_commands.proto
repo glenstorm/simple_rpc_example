@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+service CommandService {
+    rpc SayHello (HelloRequest) returns (HelloResponse);
+    rpc PrintMessage (PrintRequest) returns (PrintResponse);
+}
+
+message HelloRequest { }
+message HelloResponse { }
+
+message PrintRequest { string message = 1; }
+message PrintResponse { }
